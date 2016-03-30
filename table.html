@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="GB2312">
+    <title>表格和按钮</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+</head>
+<body class="table-responsive"> <!--表格父元素table-responsive响应式-->
+   <!--表格样式 table-striped ,table-bordered,table-hover-->
+   <table class="table table-hover">
+       <thead>
+         <tr class="info">  <!--状态类，success,active,info,warning,danger-->
+             <th>编号</th>
+             <th>姓名</th>
+             <th>性别</th>
+             <th>年龄</th>
+         </tr>
+       </thead>
+       <tbody>
+         <tr class="sr-only"> <!-- sr-only隐藏行-->
+             <td>1</td>
+             <td>张三</td>
+             <td>男</td>
+             <td>31</td>
+         </tr>
+         <tr>
+             <td>2</td>
+             <td>李四</td>
+             <td>女</td>
+             <td>54</td>
+         </tr>
+         <tr>
+             <td>3</td>
+             <td>王五</td>
+             <td>男</td>
+             <td>31</td>
+         </tr>
+       </tbody>
+   </table>
+
+    <!--按钮大小-->
+   <button class="btn btn-lg">Button</button>
+   <button class="btn">Button</button>
+   <button class="btn btn-sm">Button</button>
+   <button class="btn btn-xs">Button</button>
+   <!--按钮预定义样式 success,info,warning,danger,default,primary,link-->
+   <button class="btn btn-success">Button</button>
+   <button class="btn btn-info">Button</button>
+   <butoon class="btn btn-danger">Button</butoon>
+   <button class="btn btn-primary">Button</button>
+   <button class="btn btn-link">Button</button>
+
+   <script type="javascript" src="js/bootstrap.min.js"></script>
+   <script type="javascript" src="js/jquery.min.js"></script>
+</body>
+</html>

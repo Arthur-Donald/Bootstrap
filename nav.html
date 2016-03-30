@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="gb2312">
+    <title>输入框和导航栏</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+</head>
+<body style="margin: 200px;">
+<!--  <div class="nav navbar-fixed-top">
+      <li class="active"><a href="#">首页</a></li>
+      <li><a href="#">资讯</a></li>
+      <li><a href="#">产品</a></a></li>
+      <li><a href="#">关于</a></li>
+  </div>-->
+
+  <nav class="navbar navbar-default">
+      <div class="container">
+          <div class="navbar-header">
+              <a href="#" class="navbar-brand">标题</a>
+          </div>
+          <ul class="nav navbar-nav">
+              <li class="active"><a href="#">首页</a></li>
+              <li><a href="#">资讯</a></li>
+              <li class="disabled"><a href="#">产品</a></li>
+              <li><a href="#">关于</a></li>
+          </ul>
+          <form action="" class="navbar-form navbar-left">
+              <div class="input-group">
+                  <input type="text" class="form-control">
+<span class="input-group-btn">
+<button type="submit" class="btn btn-default">提交</button>
+</span>
+              </div>
+          </form>
+      </div>
+  </nav>
+
+
+<ul class="nav nav-tabs nav-justified">
+    <li class="active"><a href="#">首页</a></li>
+    <li><a href="#">资讯</a></li>
+    <li><a href="#">产品</a></li>
+    <li class="dropdown">
+        <a href="#" data-toggle="dropdown">
+            下拉菜单
+            <span class="caret"></span>
+        </a>
+        <ul class="dropdown-menu">
+            <li><a href="#">首页</a></li>
+            <li><a href="#">资讯</a></li>
+            <li><a href="#">产品</a></li>
+            <li><a href="#">关于</a></li>
+        </ul>
+    </li>
+    <li><a href="#">关于</a></li>
+</ul>
+<!--单选框和复选框-->
+<div class="input-group">
+    <span class="input-group-addon"><input type="checkbox"></span>
+    <input type="text" class="form-control">
+</div>
+<div class="input-group">
+    <span class="input-group-addon"><input type="radio"></span>
+    <input type="text" class="form-control">
+</div>
+<!--左侧使用按钮-->
+<div class="input-group">
+<span class="input-group-btn">
+<button type="button" class="btn btn-default">按钮</button>
+</span>
+    <input type="text" class="form-control">
+</div>
+<!--左侧使用下拉菜单或分裂式-->
+<div class="input-group">
+<span class="input-group-btn">
+<button class="btn btn-default dropdown-toggle"
+        data-toggle="dropdown">
+    下拉菜单
+    <span class="caret"></span>
+</button>
+<ul class="dropdown-menu">
+    <li class="dropdown-header">网站导航</li>
+    <li><a href="#">首页</a></li>
+    <li><a href="#">资讯</a></li>
+    <li class="divider"><a href="#">产品</a></li>
+    <li class="disabled"><a href="#">关于</a></li>
+</ul>
+</span>
+    <input type="text" class="form-control">
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
