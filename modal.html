@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="gb2312">
+    <title>模态框插件</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+</head>
+<body>
+<!--模态组件-->
+<div class="modal fade" tabindex="-1" id="myModal"><!--模态声明，show表示显示-->
+    <div class="modal-dialog"><!--窗口声明-->
+        <div class="modal-content"><!--内容声明-->
+            <!--头部-->
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                    <span>&times;</span>
+                </button>
+                <h4 class="modal-title">会员登录</h4>
+            </div>
+            <!--主体-->
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <p>暂时无法注册</p>
+                </div>
+            </div>
+            <!--注脚-->
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default">
+                    注册
+                </button>
+                <button type="button" class="btn btn-primary">
+                    登录
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">点击弹窗</button>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
